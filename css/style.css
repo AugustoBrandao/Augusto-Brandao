@@ -229,6 +229,8 @@ header button:hover{
         width: 259px;
         bottom: 41vh;
         z-index: 0;
+        border: 0px;
+        padding: 0px;
     }
 
     #title {width: 15%;}
@@ -245,6 +247,8 @@ header button:hover{
         width: 259px;
         bottom: 45.8vh;
         z-index: 0;
+        border: 0px;
+        padding: 0px;
     }
 
     #title {width: 15%;}
