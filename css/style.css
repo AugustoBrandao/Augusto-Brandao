@@ -222,12 +222,11 @@ header button:hover{
 /* Iphone 6, 7, 8 normal */
 @media (max-width: 400px){
     #foto img{
-        margin: auto;
         position: absolute;
         right: 0%;
         height: 219px;
         width: 259px;
-        bottom: 41vh;
+        bottom: 30vh;
         z-index: 0;
         border: 0px;
         padding: 0px;
