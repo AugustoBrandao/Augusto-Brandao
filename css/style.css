@@ -224,9 +224,9 @@ header button:hover{
     #foto img{
         position: absolute;
         right: 0%;
-        height: 219px;
-        width: 259px;
-        bottom: 39vh;
+        height: 189px;
+        width: 229px;
+        top: 39vh;
         z-index: 0;
         border: 0px;
         padding: 0px;
