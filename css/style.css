@@ -205,8 +205,8 @@ header button:hover{
 
 }
 
-@media (min-width:401px) and (max-width: 990px){
-    header img {
+@media (min-width:431px) and (max-width: 990px){
+    #foto img {
         margin: auto;
         position: absolute;
         right: -5%;
@@ -219,14 +219,34 @@ header button:hover{
     }
 }
 
+/* Iphone 6, 7, 8 normal */
 @media (max-width: 400px){
-    header img{
+    #foto img{
         margin: auto;
         position: absolute;
-        right: -5%;
-        height: 241px;
-        width: 283px;
+        right: 0%;
+        height: 219px;
+        width: 259px;
         bottom: 41%;
         z-index: 0;
     }
+
+    #title {width: 15%;}
+    #title h3{ font-size: 0.6em;}
+}
+
+/* Iphone 6, 7, 8 Plus */
+@media (max-width: 430px){
+    #foto img{
+        margin: auto;
+        position: absolute;
+        right: 0%;
+        height: 219px;
+        width: 259px;
+        bottom: 45.9%;
+        z-index: 0;
+    }
+
+    #title {width: 15%;}
+    #title h3{ font-size: 0.6em;}
 }
