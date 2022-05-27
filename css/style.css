@@ -232,6 +232,8 @@ header button:hover{
         padding: 0px;
     }
 
+    header button{  background-color: var(--cinza);}
+
     #title {width: 15%;}
     #title h3{ font-size: 0.6em;}
 }
