@@ -226,13 +226,13 @@ header button:hover{
         right: 0%;
         height: 189px;
         width: 229px;
-        top: 35vh;
+        top: 33vh;
         z-index: 0;
         border: 0px;
         padding: 0px;
     }
 
-    header button{  background-color: var(--cinza);}
+    header button{  background-color: var(--verde);}
 
     #title {width: 15%;}
     #title h3{ font-size: 0.6em;}
