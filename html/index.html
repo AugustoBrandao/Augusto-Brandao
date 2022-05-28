@@ -29,26 +29,13 @@
     </nav>
 
     <header>
-        <div id="title">
-            <p>Bem vindo(a)</p>
-            <h1>Augusto Brandão</h1>
-            <h3>Desenvolvedor Front-End</h3>
-            <button>DOWNLOAD CV</button>
-        </div>
-
-        <div id="media">
-               <ul style="list-style: none;">
-                   <li><img src="../images/icon/github.png"> <a href="">GITHUB PORTFOLIOS</a></li>
-                   <li><img src="../images/icon/linkedin.png"> <a href="">LINKEDIN PROFILE</a></li>
-                   <li><img src="../images/icon/whats.png"> <a href="">WHATSAPP</a></li>
-               </ul>
-        </div>
-
-        <div id="foto">
-           <img src="../images/intro.png">
-        </div>
-
-        
+        <picture>
+            <source srcset="../images/header/xbig.png" media="(min-width: 1080px)"   width="100%">
+            <source srcset="../images/header/medium.png" media="(min-width: 751px)"  width="100%">
+            <source srcset="../images/header/small.png" media="(min-width: 561px)"  width="100%">
+            <source srcset="../images/header/mobile.jpeg" media="(max-width: 560px)" width="100%">
+            <img src="../images/header/xbig.PNG" alt="">
+        </picture>
     </header>
 
     <main>
