@@ -117,8 +117,10 @@ main{
     display: flex;
 }
 
-#foto{
+#foto img{
     margin-left: 50px;
+    width: 360px;
+    height: 410px;
 }
 
 #texto{
@@ -146,7 +148,6 @@ main{
     font-family: 'Rajdhani';
     color: white;
     background-color: var(--verde);
-    margin-top: 20px;
     margin-left: 20px;
     font-size: 1.3em;
 }
@@ -155,6 +156,35 @@ main{
     cursor: pointer;
     background-color: var(--cinza);
 }
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 640px){  /* Small*/
+    main{
+        width: 100%;
+    }
+
+    #sobre{
+        display: block;
+    }
+
+    #foto img{
+        width: 270px;
+        height: 320px;
+        margin-left: 65px;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 768px){ /* Medium */
+    
+}
+
+@media (min-width: 1024px){ /* Large */
+
+}
+
+
 
 @media (max-width: 990px){
     body{
