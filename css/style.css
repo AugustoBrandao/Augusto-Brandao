@@ -213,7 +213,23 @@ div > h3{
 
 @media (max-width: 640px){  /* Small*/
     main{
-        width: 100%;
+        width: 110%;
+    }
+
+    nav{
+        width: 110%;
+    }
+
+    .nav-list {
+        position: absolute;
+        top: 8vh;
+        right: -31px;
+        width: 33vw;
+        height: 92vh;
+    }
+
+    header{
+        width: 110%;
     }
 
     #sobre{
@@ -223,23 +239,47 @@ div > h3{
     #foto img{
         width: 270px;
         height: 320px;
-        margin-left: 65px;
+        margin-left: 0px;
+    }
+
+    #texto{
+        margin-left: -10px;
+    }
+
+    #texto h1{
+        margin: 10px;
+        text-align: center;
+        font-weight: bolder;
+        font-family: 'Rajdhani';
+    }
+
+    #sobre p{
+        margin: -5px;
+        padding-right: 0%;
+        margin-top: 25px;
+        margin-bottom: 15px;
     }
 
     #habilidades div{
-        width: 25%;
-        height: 150px;
-        padding: 35px;
+        width: 20%;
+        height: 130px;
+        padding: 40px;
     }
 
     #habilidades img{
         height: 80%;
         width: 100%;
     }
+
+    #habilidades div:hover{
+        cursor: pointer;
+        border: 3px;
+        border-style: solid;
+        border-color: #80DEEA;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px){ /* Medium - tablet*/
-    
 }
 
 @media (min-width: 1025px){ /* Large - Notebooks */
@@ -247,6 +287,10 @@ div > h3{
 }
 
 @media (min-width: 1500px){ /* Large - Desktops */
+   #habilidades h1{
+       margin-right: 30px;
+   }
+   
     #habilidades div{
         width: 10%;
         height: 320px;
@@ -274,7 +318,7 @@ div > h3{
     .nav-list{
         position: absolute;
         top: 8vh;
-        right: 0;
+        right: -32;
         width: 50vw; /* view */
         height: 92vh;
         background: black;
