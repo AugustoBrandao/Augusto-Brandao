@@ -33,7 +33,7 @@ nav {
     height: 8vh; /* vh = Viewport - unidade responsiva*/
     border: 2px;
     padding: 5px;
-    width: 100%;
+    width: 99%;
 }
 
 nav > a{
@@ -104,6 +104,7 @@ header img{
 
 main{
     width: 90%;
+    height: 3000px;
     margin: auto;
     background-color: #f5f5f5;
 }
@@ -157,6 +158,56 @@ main{
     background-color: var(--cinza);
 }
 
+#habilidades{
+    width: 100%;
+    padding: 15px;
+}
+
+#habilidades h1{
+    font-family: 'Rajdhani';
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#habilidades div{
+    background-color: var(--cinza);
+    color: white;
+    font-family: 'Rajdhani';
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.242);
+    font-weight: bold;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    width: 9%;
+    height: 250px;
+    margin: 10px;
+    padding: 29px;
+}
+
+#habilidades div:hover{
+    cursor: pointer;
+    border: 3px;
+    border-style: solid;
+    border-color: #80DEEA;
+}
+
+#habilidades img{
+    height: 40%;
+    width: 100%;
+}
+
+div > h3{
+    font-family: 'Rajdhani';
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+#habilidades p{
+    font-family: 'Rajdhani';
+    font-weight: 400;
+}
+
 
 /* RESPONSIVIDADE */
 
@@ -174,17 +225,39 @@ main{
         height: 320px;
         margin-left: 65px;
     }
+
+    #habilidades div{
+        width: 25%;
+        height: 150px;
+        padding: 35px;
+    }
+
+    #habilidades img{
+        height: 80%;
+        width: 100%;
+    }
 }
 
-@media (min-width: 641px) and (max-width: 768px){ /* Medium */
+@media (min-width: 768px) and (max-width: 1024px){ /* Medium - tablet*/
     
 }
 
-@media (min-width: 1024px){ /* Large */
+@media (min-width: 1025px){ /* Large - Notebooks */
 
 }
 
+@media (min-width: 1500px){ /* Large - Desktops */
+    #habilidades div{
+        width: 10%;
+        height: 320px;
+        padding: 35px;
+    }
 
+    #habilidades img{
+        height: 40%;
+        width: 100%;
+    }
+}
 
 @media (max-width: 990px){
     body{
