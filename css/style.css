@@ -323,9 +323,8 @@ footer p{ text-align: center; font-family: 'Rajdhani'; padding-top: 50px;}
     footer{position: absolute; top:2300px;}
 }
 
-@media (min-width: 1025px){ /* Large - Notebooks */
-}
-
-@media (min-width: 1500px){ /* Large - Desktops */
+@media (min-width: 1025px) and (max-width: 2000px){ 
+    /*  Large - Desktops */
+    #habilidades div { width: 39%;}
 }
 
