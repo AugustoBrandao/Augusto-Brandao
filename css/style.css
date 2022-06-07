@@ -291,11 +291,11 @@ footer p{ text-align: center; font-family: 'Rajdhani'; padding-top: 50px;}
     #sobre p { margin-top: 10px; margin: auto; padding-right: 60px;}
     #sobre button { margin-top: 15px; margin-left: 25%;}
 
-    #habilidades div { width: 15%; height: 100px; align-items: center; padding-bottom: 55px;}
+    #habilidades div {width: 19%; height: 120px; align-items: center; padding-bottom: 55px;}
     #habilidades img { height: 87%;width: 85%;}
 
-    footer{position: absolute; top:2009px;}
-    footer p{ margin-left: -100px;}
+    footer{position: absolute; top:2055px;}
+    footer p{ margin-left: 0px;}
 }
 
 @media (min-width: 767px) and (max-width: 1024px){ /* Medium - tablet*/
