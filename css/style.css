@@ -229,7 +229,7 @@ footer{ width: 100%; height: 100px; color: white; background-color: black; }
 footer p{ text-align: center; font-family: 'Rajdhani'; padding-top: 50px;}
 
 /* RESPONSIVIDADE */
-@media (max-width: 766px) {  /* Small*/
+@media (max-width: 550px) {  /* Small*/
 
     main{
         width: 100%;
@@ -265,6 +265,39 @@ footer p{ text-align: center; font-family: 'Rajdhani'; padding-top: 50px;}
     footer{position: absolute; top:4035px;}
 }
 
+@media (min-width: 551px) and (max-width: 766px){  /* Small - lay down */
+    main{
+        width: 100%;
+    }
+    nav{ width:84%;}
+    header, main{ width:85%;}
+    main{margin-left: 0px;}
+
+    .nav-list{
+        position: absolute;
+        top: 8vh;
+        right: -32;
+        width: 50vw; /* view */
+        height: 92vh;
+        background: black;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        visibility: hidden;
+    }
+    
+    #sobre{ display: block;padding: 20px;}
+    #foto img{ height:200px; width: 185px; margin-left: 35%;}
+    #sobre p { margin-top: 10px; margin: auto; padding-right: 60px;}
+    #sobre button { margin-top: 15px; margin-left: 25%;}
+
+    #habilidades div { width: 15%; height: 100px; align-items: center; padding-bottom: 55px;}
+    #habilidades img { height: 87%;width: 85%;}
+
+    footer{position: absolute; top:2009px;}
+    footer p{ margin-left: -100px;}
+}
+
 @media (min-width: 767px) and (max-width: 1024px){ /* Medium - tablet*/
     .nav-list{
         position: absolute;
@@ -278,6 +311,16 @@ footer p{ text-align: center; font-family: 'Rajdhani'; padding-top: 50px;}
         transform: translateX(100%);
         visibility: hidden;
     }
+
+    #sobre{ display: block;padding: 20px;}
+    #foto img{ height:200px; width: 185px; margin-left: 35%;}
+    #sobre h1 { margin-left: 25%; margin-bottom: 10px; margin-top: 50px;}
+    #sobre button { margin-top: 15px; margin-left: 30%;}
+
+    #habilidades div { width: 19%;}
+    #habilidades img { height: 60%;width: 110%;}
+
+    footer{position: absolute; top:2300px;}
 }
 
 @media (min-width: 1025px){ /* Large - Notebooks */
