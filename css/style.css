@@ -137,7 +137,7 @@ main{
 #sobre p{
     margin: 20px;
     padding-right: 10%;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 
 #btn>a{
@@ -153,6 +153,7 @@ main{
     background-color: var(--verde);
     margin-left: 20px;
     font-size: 1.3em;
+    margin-bottom: 25px;
 }
 
 #btn > a:hover{
@@ -252,9 +253,9 @@ footer p{ text-align: center; font-family: 'Rajdhani'; padding-top: 50px;}
 
     #sobre{ display: block;padding: 20px;}
     #sobre h1 { margin: auto; margin-bottom: 10px; margin-top: 10px;}
-    #sobre p { margin-top: 10px; margin: auto; padding-right: 60px;}
+    #sobre p { margin-top: 10px; margin: auto; padding-right: 60px; margin-bottom: 50px;}
     #foto img{ height:200px; width: 185px; margin-left: 20%;}
-    #sobre button { margin-top: 15px;}
+    #sobre a { margin-top: 15px;}
     
     #habilidades { height: 2200px; width: 92%; background-color: #f5f5f5;}
     #habilidades div { width: 70%; height: 240px; align-items: center; padding-bottom: 55px;}
@@ -290,11 +291,11 @@ footer p{ text-align: center; font-family: 'Rajdhani'; padding-top: 50px;}
     
     #sobre{ display: block;padding: 20px;}
     #foto img{ height:200px; width: 185px; margin-left: 35%;}
-    #sobre p { margin-top: 10px; margin: auto; padding-right: 60px;}
-    #sobre button { margin-top: 15px; margin-left: 32%;}
+    #sobre p { margin-top: 10px; margin: auto; padding-right: 60px; margin-bottom: 50px;}
+    #sobre a { margin-left: 32%;}
 
-    #habilidades div {width: 19%; height: 120px; align-items: center; padding-bottom: 55px;}
-    #habilidades img { height: 87%;width: 85%;}
+    #habilidades div {width: 19%; height: 120px; align-items: center; padding-bottom: 45px;}
+    #habilidades img { height: 87%;width: 85%; margin-bottom: 15px;}
 
     footer{position: absolute; top:2000px;}
     footer p{ margin-left: 0px;}
@@ -317,7 +318,7 @@ footer p{ text-align: center; font-family: 'Rajdhani'; padding-top: 50px;}
     #sobre{ display: block;padding: 20px;}
     #foto img{ height:200px; width: 185px; margin-left: 35%;}
     #sobre h1 { margin-left: 25%; margin-bottom: 10px; margin-top: 50px;}
-    #sobre button { margin-top: 15px; margin-left: 30%;}
+    #sobre a { margin-top: 15px; margin-left: 30%;}
 
     #habilidades div { width: 19%;}
     #habilidades img { height: 60%;width: 110%;}
@@ -331,5 +332,9 @@ footer p{ text-align: center; font-family: 'Rajdhani'; padding-top: 50px;}
 }
 
 @media (min-width: 1501px) and (max-width: 2000px){ 
-    #habilidades div { width: 10%; height: 15%;}
+    main{
+        width: 90%;
+        height: 1550px;
+    }
+    #habilidades div { width: 10.95%; height: 15%;}
 }
