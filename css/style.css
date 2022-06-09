@@ -329,5 +329,5 @@ footer p{ text-align: center; font-family: 'Rajdhani'; padding-top: 50px;}
 }
 
 @media (min-width: 1501px) and (max-width: 2000px){ 
-    #habilidades div { width: 11%; height: 15%;}
+    #habilidades div { width: 10%; height: 15%;}
 }
