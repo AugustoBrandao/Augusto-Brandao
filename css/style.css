@@ -137,6 +137,7 @@ main{
 #sobre p{
     margin: 20px;
     padding-right: 10%;
+    margin-bottom: 50px;
 }
 
 #btn>a{
