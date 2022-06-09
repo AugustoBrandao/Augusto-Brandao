@@ -139,12 +139,13 @@ main{
     padding-right: 10%;
 }
 
-#btn>button{
+#btn>a{
     height: 80px;
     width: 185px;
     padding: 15px;
     border-radius: 10px;
-    border-style:solid;
+    text-decoration: none;
+    border: 2px solid black;
     font-weight: bolder;
     font-family: 'Rajdhani';
     color: white;
@@ -153,7 +154,7 @@ main{
     font-size: 1.3em;
 }
 
-#btn > button:hover{
+#btn > a:hover{
     cursor: pointer;
     background-color: var(--cinza);
 }
